@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Primoglobal Product",
+  "type": "object",
+  "required": ["name", "description", "origin", "specifications", "packagingOptions", "qualityInformation", "status"],
+  "properties": {
+    "name": { "type": "string" },
+    "slug": { "type": "string" },
+    "description": { "type": "string" },
+    "origin": { "type": "string" },
+    "specifications": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "packagingOptions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "moq": { "type": "string" },
+    "qualityInformation": { "type": "string" },
+    "photo": {
+      "type": "object",
+      "properties": {
+        "src": { "type": "string" },
+        "alt": { "type": "string" }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "published", "archived"]
+    }
+  }
+}

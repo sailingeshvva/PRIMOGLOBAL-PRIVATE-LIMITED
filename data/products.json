@@ -1,0 +1,5 @@
+{
+  "cmsFlow": "Admin -> Products -> Add Product -> Upload Photo -> Description -> Specifications -> Publish",
+  "publishingRule": "Only publish products Primoglobal is prepared to supply with verified specifications, packaging, MOQ where applicable and quality information.",
+  "products": []
+}

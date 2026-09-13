@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Primoglobal Private Limited</title>
+  <desc id="desc">Primoglobal logo with a globe, an upward trade arrow, and the words Driven by Trade. Defined by Trust.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d20c68"/>
+      <stop offset="1" stop-color="#432074"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#brand)" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="230" cy="90" r="67" stroke-width="12"/>
+    <path d="M168 47c18-21 42-30 68-27 27 3 49 19 61 42M168 133c20 18 47 26 73 22 28-4 50-20 61-45" stroke-width="8"/>
+    <path d="M230 23c-20 24-20 60 0 72s20 48 0 62M184 77h92M179 112h102" stroke-width="6" opacity=".9"/>
+    <path d="M150 139C235 148 322 96 365 28" stroke-width="15"/>
+  </g>
+  <path d="M338 39l57-28-12 63z" fill="url(#brand)"/>
+  <text x="52" y="203" fill="url(#brand)" font-family="Arial, sans-serif" font-size="61" font-weight="800" letter-spacing="1">PRIMOGLOBAL</text>
+  <path d="M55 224h166M679 224h166" stroke="#d20c68" stroke-width="4"/>
+  <text x="450" y="237" text-anchor="middle" fill="#432074" font-family="Arial, sans-serif" font-size="25" letter-spacing="14">PVT LTD</text>
+</svg>

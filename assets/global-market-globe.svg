@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="title desc">
+  <title id="title">Global market connections from India</title>
+  <desc id="desc">A blue globe with simplified continents, trade routes, and India highlighted as the sourcing point.</desc>
+  <defs>
+    <radialGradient id="ocean" cx="35%" cy="28%" r="75%">
+      <stop offset="0" stop-color="#315d9f"/>
+      <stop offset="1" stop-color="#102755"/>
+    </radialGradient>
+    <clipPath id="globe-clip">
+      <circle cx="380" cy="280" r="205"/>
+    </clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <circle cx="380" cy="280" r="220" fill="#b99458" opacity=".15"/>
+  <circle cx="380" cy="280" r="205" fill="url(#ocean)" stroke="#b99458" stroke-width="3"/>
+  <g clip-path="url(#globe-clip)" fill="none" stroke="#a9c5ed" stroke-width="2" opacity=".45">
+    <ellipse cx="380" cy="280" rx="82" ry="205"/>
+    <ellipse cx="380" cy="280" rx="145" ry="205"/>
+    <ellipse cx="380" cy="280" rx="205" ry="72"/>
+    <ellipse cx="380" cy="280" rx="205" ry="136"/>
+    <path d="M175 280h410"/>
+  </g>
+  <g clip-path="url(#globe-clip)" fill="#eef3ed" stroke="#c9d7c5" stroke-width="2">
+    <path d="M193 221l30-32 42-19 41 5 18 28-18 23-24 5-13 32-34 12-31-18z"/>
+    <path d="M278 266l36 7 23 35-11 35-16 5-17-33-27-15z"/>
+    <path d="M376 177l32-17 40 10 16 22 32 14 22 33-25 22-33-5-19-24-30 4-20-25z"/>
+    <path d="M464 262l38 7 29 28-19 25-29-5-17-23z"/>
+    <path d="M423 321l31 9 24 44-13 54-24 28-15-36 10-38-22-23z"/>
+    <path d="M514 180l26 6 14 22-18 12-20-10z"/>
+  </g>
+  <g fill="none" stroke="#e9b95e" stroke-width="3" stroke-dasharray="8 9" opacity=".95">
+    <path d="M432 315 Q510 185 615 238"/>
+    <path d="M432 315 Q330 170 198 220"/>
+    <path d="M432 315 Q512 370 580 397"/>
+  </g>
+  <circle cx="432" cy="315" r="13" fill="#ba1d72" stroke="#fff" stroke-width="4" filter="url(#glow)"/>
+  <circle cx="615" cy="238" r="7" fill="#e9b95e" stroke="#fff" stroke-width="3"/>
+  <circle cx="198" cy="220" r="7" fill="#e9b95e" stroke="#fff" stroke-width="3"/>
+  <circle cx="580" cy="397" r="7" fill="#e9b95e" stroke="#fff" stroke-width="3"/>
+  <text x="432" y="352" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="15" font-weight="700">INDIA</text>
+</svg>
